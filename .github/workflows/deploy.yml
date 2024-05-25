@@ -27,9 +27,9 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-        tags: devgunjan/binance
+        tags: devgunjan/binance:latest
 
     - name: Verify Pushed Image
-      run: docker pull devgunjan/binance
+      run: docker pull ddevgunjan/binance:latest
 
   
