@@ -46,7 +46,7 @@ export async function p2pTransfer(to: string, amount: number) {
               amount:amount,
                fromUserId:   from,
                toUserId:toUser.id,
-               timeStamp:new Date()
+               timestamp:new Date()
             }
           })
     });
